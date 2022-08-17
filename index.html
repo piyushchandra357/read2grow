@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read2grow</title>
+</head>
+<body>
+    <div class="container_titlebar">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Read2grow</h1>
+                <p>
+                    <a href="{{ url('/Home') }}">Home</a>
+                    <a href="{{ url('/about') }}">about</a>
+                    <a href="{{ url('/Search') }}">Search</a>
+                    <a href="{{ url('/Login') }}">Login</a>
+                </p>
+                <hr>
+                @yield('content')
+            </div>
+        </div>
+    </div>
+</body>
+</html>
